@@ -14,6 +14,7 @@
 		AE813C3E1D1CDAE60059FCE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE813C3C1D1CDAE60059FCE4 /* LaunchScreen.storyboard */; };
 		AE813C491D1CDAE60059FCE4 /* LineDashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE813C481D1CDAE60059FCE4 /* LineDashTests.swift */; };
 		AE813C541D1CDAE60059FCE4 /* LineDashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE813C531D1CDAE60059FCE4 /* LineDashUITests.swift */; };
+		AE813C621D1D292E0059FCE4 /* LinDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE813C611D1D292E0059FCE4 /* LinDash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AE813C4F1D1CDAE60059FCE4 /* LineDashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineDashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE813C531D1CDAE60059FCE4 /* LineDashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineDashUITests.swift; sourceTree = "<group>"; };
 		AE813C551D1CDAE60059FCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE813C611D1D292E0059FCE4 /* LinDash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinDash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AE813C331D1CDAE60059FCE4 /* AppDelegate.swift */,
 				AE813C351D1CDAE60059FCE4 /* ViewController.swift */,
+				AE813C611D1D292E0059FCE4 /* LinDash.swift */,
 				AE813C371D1CDAE60059FCE4 /* Main.storyboard */,
 				AE813C3A1D1CDAE60059FCE4 /* Assets.xcassets */,
 				AE813C3C1D1CDAE60059FCE4 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE813C621D1D292E0059FCE4 /* LinDash.swift in Sources */,
 				AE813C361D1CDAE60059FCE4 /* ViewController.swift in Sources */,
 				AE813C341D1CDAE60059FCE4 /* AppDelegate.swift in Sources */,
 			);
